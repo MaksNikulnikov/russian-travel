@@ -4,7 +4,24 @@
 @import url('./__logo/header__logo.css');
 
 .header{
-    padding: 16px;
+    padding-top: 28px;
+    padding-left: 48px;
+    padding-right: 48px;
     display: flex;
     justify-content: space-between;
+}
+
+@media all and (max-width:1023px) {
+    .header{ 
+        padding-left: calc(48px - ((1024px - 100vw )* 0.09375));
+        padding-right: calc(48px - ((1024px - 100vw )* 0.09375));
+        }
+}
+
+@media all and (max-width:768px) {
+    .header{ 
+        padding-left: calc(24px - ((768px - 100vw) / 56));
+        padding-right: calc(24px - ((768px - 100vw ) / 56));
+        padding-top: calc(28px - ((768px - 100vw ) / 112 * 3));
+        }
 }
