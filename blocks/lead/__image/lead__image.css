@@ -1,0 +1,22 @@
+.lead__image {
+    width: 984px;
+    }
+
+@media all and (max-width:1280px) {
+    .lead__image {
+        width: calc(984px - ((1280px - 100vw) / 256 * 56));
+    }
+}
+
+@media all and (max-width:1024px) {
+    .lead__image {
+        width: calc(928px - ((1024px - 100vw) / 256 * 160));
+    }
+}
+
+@media all and (max-width:768px) {
+    .lead__image {
+        width: 100vw;
+    }
+}
+

@@ -9,6 +9,8 @@
     padding-right: 48px;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 @media all and (max-width:1023px) {
