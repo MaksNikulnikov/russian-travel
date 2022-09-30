@@ -1,0 +1,20 @@
+.photo-grid__item{
+    width: calc((100vw - (48px * 2) - (16px*3))/4);
+}
+@media all and (max-width:1024px) {
+    .photo-grid__item{ 
+        width: calc((100vw - ((48px - (1024px - 100vw)/256*24) * 2) - (14px*2))/3);
+        }
+}
+
+@media all and (max-width:768px) {
+    .photo-grid__item{ 
+        width: calc((100vw - ((24px - (768px - 100vw)/448*8) * 2) - (16px - (768px - 100vw)/448*4))/2);
+        }
+}
+
+@media all and (max-width:320px) {
+    .photo-grid__item{ 
+        width: calc(100vw - (16px*2));
+        }
+}
