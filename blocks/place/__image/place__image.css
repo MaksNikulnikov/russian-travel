@@ -1,0 +1,22 @@
+.place__image {
+    width: 460px;
+}
+
+@media all and (max-width:1280px) {
+    .place__image {
+        width: calc(460px - (1280px - 100vw)/256*20);
+    }
+}
+
+@media all and (max-width:1024px) {
+    .place__image {
+        width: calc(440px - (1024px - 100vw)/256*100);
+    }
+}
+
+@media all and (max-width:682px) {
+    .place__image {
+        width: calc(460px - (682px - 100vw)/362*140);
+        justify-self: center;
+    }
+}

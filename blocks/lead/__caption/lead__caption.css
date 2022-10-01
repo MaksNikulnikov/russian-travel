@@ -1,5 +1,5 @@
-.lead__caption{
-align-self: flex-start;
+.lead__caption {
+    align-self: flex-start;
     font-size: 10px;
     font-weight: 400;
     line-height: 14px;
@@ -8,11 +8,13 @@ align-self: flex-start;
     margin: 0;
     margin-top: 8px;
 }
+
 @media all and (max-width:1024px) {
     .lead__caption {
         margin-left: calc((1024px - 100vw) / 256 * 24);
     }
 }
+
 @media all and (max-width:768px) {
     .lead__caption {
         margin-left: calc(24px - ((768px - 100vw) / 56));
