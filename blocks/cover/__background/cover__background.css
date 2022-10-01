@@ -1,0 +1,32 @@
+.cover__background{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1184px;
+    height: 740px;
+    background-image: url('../../../images/__background.jpg');
+    background-size: cover;
+}
+
+@media all and (max-width:1280px) {
+    .cover__background {
+        height: calc(740px - (1280px - 100vw)/256*100);
+    }
+}
+
+@media all and (max-width:1024px) {
+    .cover__background {
+        height: calc(640px - (1024px - 100vw)/256*160);
+    }
+}
+
+@media all and (max-width:768px) {
+    .cover__background {
+        height: calc(480px - (768px - 100vw)/448*280);
+    }
+}
+
+
