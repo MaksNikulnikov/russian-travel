@@ -17,5 +17,5 @@
 * БЭМ - методология
 
 **Ссылка GitHub Pages**
-
+[Путешествие по России](https://maksnikulnikov.github.io/russian-travel/)
 
