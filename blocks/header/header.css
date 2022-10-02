@@ -1,8 +1,3 @@
-@import url('./__lang-link-holder/header__lang-link-holder.css');
-@import url('./__lang-link/header__lang-link.css');
-@import url('./__lang-link/_checked/header__lang-link-checked.css');
-@import url('./__logo/header__logo.css');
-
 .header {
     padding-top: 28px;
     padding-left: 48px;

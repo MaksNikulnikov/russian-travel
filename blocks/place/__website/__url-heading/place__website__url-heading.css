@@ -9,6 +9,6 @@
 
 @media all and (max-width:1024px) {
     .place__website__url-heading {
-        line-height: calc(170% - (1024px - 100vw)/256*70%);
+        line-height: calc(20.4px - (1024px - 100vw)/256 * 3.4);
     }
 }
