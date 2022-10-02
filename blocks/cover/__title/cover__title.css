@@ -10,7 +10,7 @@
     color: white;
     font-family: 'Inter', Arial, sans-serif;
     text-decoration: none;
-    text-rendering: optimizeLegibility; 
+    text-rendering: optimizeLegibility;
 }
 
 @media all and (max-width:768px) {
