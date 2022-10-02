@@ -1,11 +1,11 @@
-.place__website {
+.website {
     display: flex;
     flex-direction: column;
     justify-content: end;
 }
 
 @media all and (max-width:682px) {
-    .place__website {
+    .website {
         margin-left: 16px;
         margin-right: 16px;
     }
