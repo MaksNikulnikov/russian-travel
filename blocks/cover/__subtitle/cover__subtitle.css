@@ -6,7 +6,6 @@
     margin: 0;
     width: 360px;
     z-index: 1;
-    pointer-events: none;
 }
 
 @media all and (max-width:768px) {
