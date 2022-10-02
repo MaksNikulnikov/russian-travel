@@ -15,11 +15,13 @@
         font-size: calc(18px - (1024px - 100vw)/256*2);
     }
 }
+
 @media all and (max-width:768px) {
     .place__paragraph {
         font-size: 16px;
     }
 }
+
 @media all and (max-width:682px) {
     .place__paragraph {
         margin-bottom: 25px;
@@ -27,4 +29,3 @@
         margin-right: 16px;
     }
 }
-

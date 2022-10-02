@@ -1,4 +1,4 @@
-.cover__title{
+.cover__title {
     font-size: 72px;
     line-height: 76px;
     font-weight: 900;
@@ -10,6 +10,7 @@
     color: white;
     font-family: 'Inter', Arial, sans-serif;
     text-decoration: none;
+    text-rendering: optimizeLegibility; 
 }
 
 @media all and (max-width:768px) {

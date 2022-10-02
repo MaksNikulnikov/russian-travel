@@ -1,4 +1,4 @@
-.cover__background{
+.cover__background {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -28,5 +28,3 @@
         height: calc(480px - (768px - 100vw)/448*280);
     }
 }
-
-

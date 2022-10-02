@@ -6,6 +6,7 @@
     display: inline-block;
     width: 720px;
     margin: 0;
+    text-rendering: optimizeLegibility; 
 }
 
 @media all and (max-width:768px) {

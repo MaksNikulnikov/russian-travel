@@ -1,4 +1,4 @@
-.cover__subtitle{
+.cover__subtitle {
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;
@@ -13,6 +13,6 @@
     .cover__subtitle {
         font-size: calc(18px - (768px - 100vw)/448*4);
         line-height: calc(22px - (768px - 100vw)/448*6);
-        width: calc(360px - (768px - 100vw)/448*72);;
+        width: calc(360px - (768px - 100vw)/448*72);
     }
 }

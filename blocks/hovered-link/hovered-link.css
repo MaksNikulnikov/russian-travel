@@ -1,6 +1,7 @@
-.hovered-link{
+.hovered-link {
     opacity: 100%;
 }
-.hovered-link:hover{
+
+.hovered-link:hover {
     opacity: 80%;
 }
