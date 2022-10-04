@@ -3,7 +3,7 @@
     font-weight: 900;
     line-height: 76px;
     margin: 0;
-    text-rendering: optimizeLegibility; 
+    text-rendering: optimizeLegibility;
 }
 
 @media all and (max-width:1024px) {

@@ -5,6 +5,7 @@
     font-weight: 400;
     margin: 0 0 12px 0;
     color: #AAAAAA;
+    letter-spacing: 2px;
 }
 
 @media all and (max-width:1024px) {

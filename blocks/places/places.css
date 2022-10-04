@@ -26,6 +26,6 @@
         margin-left: 0;
         margin-right: 0;
         margin-top: calc(88px - (682px - 100vw)/362*24);
-        margin-bottom: calc(18px - (682px - 100vw)/362*11);
+        margin-bottom: calc(18px - (682px - 100vw)/362*2);
     }
 }

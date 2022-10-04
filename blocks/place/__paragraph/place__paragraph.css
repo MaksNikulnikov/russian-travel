@@ -2,7 +2,7 @@
     font-size: 18px;
     line-height: 163%;
     font-weight: 400;
-    margin: 0 0 26px 0;
+    margin: 0 0 23px 0;
 }
 
 .place__paragraph:last-child {
@@ -28,4 +28,5 @@
         margin-left: 16px;
         margin-right: 16px;
     }
+
 }

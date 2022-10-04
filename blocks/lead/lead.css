@@ -20,6 +20,12 @@
 @media all and (max-width:1024px) {
     .lead {
         margin-top: 48px;
+        margin-bottom: calc(92px - ((1024px - 100vw) / 256*4));
+    }
+}
 
+@media all and (max-width:768px) {
+    .lead {
+        margin-bottom: calc(88px - ((768px - 100vw) / 448*24));
     }
 }
