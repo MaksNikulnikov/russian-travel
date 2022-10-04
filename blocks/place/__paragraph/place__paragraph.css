@@ -6,7 +6,7 @@
 }
 
 .place__paragraph:last-child {
-    margin-bottom: 1px;
+    margin-bottom: 0;
 }
 
 @media all and (max-width:1024px) {

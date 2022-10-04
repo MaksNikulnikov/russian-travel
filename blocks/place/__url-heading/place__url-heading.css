@@ -1,14 +1,14 @@
-.website__url-heading {
+.place__url-heading {
     font-size: 12px;
     line-height: 1.7;
-    letter-spacing: 2px;
+    text-transform: uppercase;
     font-weight: 400;
-    display: block;
     margin: 0 0 12px 0;
+    color: #AAAAAA;
 }
 
 @media all and (max-width:1024px) {
-    .website__url-heading {
+    .place__url-heading {
         line-height: calc(20.4px - (1024px - 100vw)/256 * 3.4);
     }
 }

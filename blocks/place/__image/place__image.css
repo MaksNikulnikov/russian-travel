@@ -17,7 +17,6 @@
 
 @media all and (max-width:682px) {
     .place__image {
-        width: 100%;
         max-width: calc(460px - (682px - 100vw)/362*140);
         justify-self: center;
     }

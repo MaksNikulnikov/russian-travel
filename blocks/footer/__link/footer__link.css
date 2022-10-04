@@ -9,6 +9,10 @@
     margin-right: 18px;
 }
 
+.footer__link:last-of-type{
+    margin-right: 0;
+}
+
 @media all and (max-width:768px) {
     .footer__link {
         margin-bottom: calc((768px - 100vw)/448*24);
@@ -18,8 +22,3 @@
     }
 }
 
-@media all and (max-width:682px) {
-    .footer__link {
-        display: block;
-    }
-}
