@@ -23,3 +23,10 @@
         max-width: calc(100vw - (24px - (768px - 100vw)/448*8)*2);
     }
 }
+
+@media all and (max-width:420px) {
+    .footer{
+        flex-direction: column;
+    }
+    
+}
