@@ -10,6 +10,7 @@
     .place__title {
         line-height: calc(76px - (1024px - 100vw)/256*30);
         font-size: calc(72px - (1024px - 100vw)/256*30);
+        align-self: end;
     }
 }
 

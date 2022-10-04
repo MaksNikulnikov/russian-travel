@@ -21,7 +21,7 @@
 @media all and (max-width:1024px) {
     .place {
         grid-template-columns: calc(440px - (1024px - 100vw)/256*100) calc(456px - (1024px - 100vw)/256*104);
-        margin-bottom: calc(80px - (1024px - 100vw)/256*8);
+        margin-bottom: calc(80px - (1024px - 100vw)/256*12);
         column-gap: calc(32px - (1024px - 100vw)/256*4);
     }
 }
