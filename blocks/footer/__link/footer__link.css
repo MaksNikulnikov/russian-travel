@@ -13,11 +13,10 @@
     margin-right: 0;
 }
 
-@media all and (max-width:768px) {
+@media all and (max-width:767px) {
     .footer__link {
-        margin-bottom: calc((768px - 100vw)/448*32);
-        line-height: calc(18px + (768px - 100vw)/448*6);
+        margin-bottom: calc(8px + (767px - 100vw)/448*24);
+        line-height: calc(18px + (767px - 100vw)/448*6);
         font-size: calc(16px + (768px - 100vw)/448*8);
-        margin-right: calc((768px - 100vw)/448*128);
     }
 }

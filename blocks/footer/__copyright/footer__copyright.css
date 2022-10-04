@@ -10,5 +10,6 @@
     .footer__copyright {
         margin-top: calc((768px - 100vw)/448*16);
         line-height: calc(16px - (768px - 100vw)/448*2);
+        align-self: flex-end;
     }
 }

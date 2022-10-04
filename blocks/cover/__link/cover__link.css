@@ -2,4 +2,10 @@
     color: white;
     font-family: 'Inter', Arial, sans-serif;
     text-decoration: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
 }

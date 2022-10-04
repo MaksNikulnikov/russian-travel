@@ -3,3 +3,9 @@
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+
+@media all and (max-width:767px) {
+    .footer__navigation {
+        flex-direction: column;
+    }
+}

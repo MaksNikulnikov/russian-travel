@@ -4,15 +4,15 @@
     font-family: 'Inter', Arial, sans-serif;
     display: flex;
     justify-content: space-between;
-    width: calc(100vw - 48px*2);
-    flex-wrap: wrap;
+    max-width: calc(1280px - 48px*2);
+    width: 100%;
 }
 
 @media all and (max-width:1024px) {
     .footer {
         margin-left: calc(48px - (1024px - 100vw)/256*24);
         margin-right: calc(48px - (1024px - 100vw)/256*24);
-        width: calc(100vw - (48px - (1024px - 100vw)/256*24)*2);
+        max-width: calc(100vw - (48px - (1024px - 100vw)/256*24)*2);
     }
 }
 
@@ -20,6 +20,6 @@
     .footer {
         margin-left: calc(24px - (768px - 100vw)/448*8);
         margin-right: calc(24px - (768px - 100vw)/448*8);
-        width: calc(100vw - (24px - (768px - 100vw)/448*8)*2);
+        max-width: calc(100vw - (24px - (768px - 100vw)/448*8)*2);
     }
 }
