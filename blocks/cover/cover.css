@@ -10,42 +10,17 @@
     justify-content: center;
     background-image: url('../../images/__background.jpg');
     background-size: cover;
-    min-height: 740px;
     position: relative;
-}
-
-@media all and (max-width:1280px) {
-    .cover {
-        min-height: calc(740px - (1280px - 100vw)/256*100);
-    }
 }
 
 @media all and (max-width:1024px) {
     .cover {
-        min-height: calc(640px - (1024px - 100vw)/256*160);
         margin-bottom: calc(92px - (1024px - 100vw)/256*4);
     }
 }
 
 @media all and (max-width:768px) {
     .cover {
-        min-height: calc(480px - (768px - 100vw)/448*280);
         margin-bottom: calc(88px - (768px - 100vw)/448*24);
     }
-}
-
-.cover::before {
-    content: " ";
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    max-width: inherit;
-    min-height: inherit;
-    opacity: 0.3;
-    background-color: #2A2C2F;
-}
-
-.cover:hover::before {
-    opacity: 0.8;
 }
