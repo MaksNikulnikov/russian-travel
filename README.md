@@ -17,5 +17,5 @@
 - Структура проекта по *БЭМ*
 
 
-##Ссылка GitHub Pages
+## Ссылка GitHub Pages
 [Путешествие по России](https://maksnikulnikov.github.io/russian-travel/)
